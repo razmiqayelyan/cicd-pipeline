@@ -6,14 +6,7 @@ const app = express()
 app.get("/", (req, res) => {
     res.json({
         status:200,
-        message:"Welcome to Razos API"
-    })
-})
-
-app.get("/api/rm", (req,res)=>{
-    res.json({
-        status:200,
-        message:"This is custom API url created by @razmiqayelyan to check ci/cd"
+        message:"Welcome to Razos API Page"
     })
 })
 
