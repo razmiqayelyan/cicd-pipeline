@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
     })
 })
 
-app.get("/r/api", (req,res)=>{
+app.get("/api/rm", (req,res)=>{
     res.json({
         status:200,
         message:"This is custom API url created by @razmiqayelyan to check ci/cd"
