@@ -6,7 +6,7 @@ const app = express()
 app.get("/", (req, res) => {
     res.json({
         status:200,
-        message:"Welcome to Razos API Page"
+        message:"Welcome to Razos API Page!!!"
     })
 })
 
